@@ -3,40 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website showcasing projects, skills, and reflections.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio Website</title>
+    <style>
+        body {
+            background-color: #1c1f33; /* Dark blue background */
+            color: white; /* White text */
+            font-family: Arial, sans-serif;
+        }
+        header a.logo {
+            color: white; /* White logo */
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        h2, h1, h3 {
+            color: white; /* White for all headings */
+        }
+        a {
+            color: #4c84ff; /* Light blue for links */
+            text-decoration: none;
+        }
+        a:hover {
+            color: #335f8a; /* Darker blue for hover effect */
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            color: white; /* White button text */
+            background-color: #4c84ff; /* Light blue button */
+            border-radius: 5px;
+            text-align: center;
+        }
+        .btn:hover {
+            background-color: #335f8a; /* Darker blue for button hover effect */
+        }
+        .social-icons a {
+            color: white; /* White for social icons */
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .social-icons a:hover {
+            color: #4c84ff; /* Light blue on hover */
+        }
+        img {
+            border: 2px solid #4c84ff; /* Blue border around image */
+        }
+        dl dt {
+            font-weight: bold;
+            color: white; /* White for definition terms */
+        }
+        dl dd {
+            color: white; /* White for definition descriptions */
+        }
+    </style>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Data analysis and algorithms</a>
+        <a href="#" class="logo">Data Analysis and Algorithms</a>
     </header>
-
     <section class="home">
         <div class="home-img">
-           <img src="https://media.istockphoto.com/id/1071748346/photo/corrupted-data-red-binary-code.jpg?s=612x612&w=0&k=20&c=24otejzWwgiWiPlo_8Z2PjdJ1D2L7Es1x_F197yrSXA="  
-                alt="Home Image" 
+            <img src="https://media.istockphoto.com/id/1071748346/photo/corrupted-data-red-binary-code.jpg?s=612x612&w=0&k=20&c=24otejzWwgiWiPlo_8Z2PjdJ1D2L7Es1x_F197yrSXA=" 
+                alt="Blue binary code representing data" 
                 width="800" 
                 height="600">
         </div>
-        
         <div class="home-content">
-            <h1>Hi, my name is <span>Diya Habib</span></h1><br><br>
-            <h3 class="typing-text"> I thrive on making an impact through problem-solving..<br> Here's a glimpse of my work</h3>
+            <h1>Hi, my name is <span style="color: #4c84ff;">Ananya Kadakol</span></h1>
+            <h3 class="typing-text">I'm passionate about technology and problem-solving.<br> Here's a glimpse of my work</h3>
 
             <h2>🛠 Projects</h2>
             <ul>
-                <li>Project 1: Design thinking for social innovation - "Innovating solutions for Government Schools".</li>
-                <li>Project 2: "Engineering Exploration: Innovating the Alarm Clock".</li>
+                <li>Project 1: Design thinking for social innovation.</li>
+                <li>Project 2: Engineering Exploration - Rat trapper.</li>
             </ul>
 
             <h2>🚀 Skills</h2>
             <ul>
-                <li>C++, C, Python</li>
+                <li>C++, C, HTML</li>
                 <li>Data Structures and Algorithms</li>
             </ul>
 
             <h2>🌐 Find Me Online</h2>
-            <p><a href="https://github.com/diya181">GitHub</a></p>
+            <p><a href="https://github.com/ananyakadakol">GitHub</a></p>
 
             <h2>Portfolio Topic</h2>
             <dl>
@@ -45,26 +97,25 @@
                 <dt>Course Code</dt>
                 <dd>24ECAC203</dd>
                 <dt>Name</dt>
-                <dd>Diya Habib</dd>
+                <dd>Ananya Kadakol</dd>
                 <dt>SRN</dt>
-                <dd>01FE23BCI021</dd>
+                <dd>01FE23BCI025</dd>
                 <dt>Course Instructor</dt>
                 <dd>K M M Rajashekharaiah Sir</dd>
                 <dt>University</dt>
-                <dd>KLE TECHNOLOGICAL UNIVERSITY</dd>
+                <dd>KLE Technological University</dd>
                 <dt>Portfolio Topic/Domain</dt>
-                <dd>DATA ANALYSIS AND ALGORITHMS</dd>
+                <dd>Data Analysis and Algorithms</dd>
             </dl>
 
             <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ananyakadakol"><i class="fa-brands fa-github"></i></a>
             </div>
 
             <a href="DAA_THEORY.html" class="btn">DAA_THEORY</a>
             <a href="DAA_LAB.html" class="btn">DAA_LAB</a>
-            <a href="questions.html" class="btn">Course Outcomes</a>
+            <a href="outcomes.html" class="btn">Outcomes</a>
         </div>
     </section>
 </body>
