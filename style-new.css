@@ -1,9 +1,11 @@
-/* General styles */
+* General styles */
 body {
     font-family: 'VT323', monospace;
     background-color: #f0f8ff;
     margin: 0;
     padding: 0;
+    color: #002366; /* Changed text color to dark blue */
+    font-size: 18px; /* Increased base font size */
 }
 
 .container {
@@ -15,7 +17,7 @@ body {
 /* Header styles */
 header {
     background-color: #2b6777;
-    color: #fff;
+    color: #002366; /* Changed text color to dark blue */
     text-align: center;
     padding: 20px 0;
     margin-bottom: 20px;
@@ -24,12 +26,12 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.8rem; /* Increased font size */
 }
 
 header h2 {
     margin: 10px 0 0;
-    font-size: 1.5rem;
+    font-size: 1.8rem; /* Increased font size */
 }
 
 /* Navigation bar styles */
@@ -54,6 +56,7 @@ nav {
     text-decoration: none;
     color: #2b6777;
     font-weight: bold;
+    font-size: 1.2rem; /* Increased font size */
     padding: 10px 15px;
     border: 2px solid #2b6777;
     border-radius: 5px;
@@ -81,6 +84,7 @@ h2 {
     color: #2b6777;
     border-bottom: 2px solid #2b6777;
     padding-bottom: 10px;
+    font-size: 2rem; /* Increased font size */
 }
 
 .inner-content {
@@ -100,6 +104,7 @@ h2 {
 .block h3 {
     margin-top: 0;
     color: #2b6777;
+    font-size: 1.5rem; /* Increased font size */
 }
 
 .block ul {
@@ -115,72 +120,10 @@ h2 {
 /* Footer styles */
 footer {
     background-color: #2b6777;
-    color: #fff;
+    color: #002366; /* Changed text color to dark blue */
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
     border-radius: 10px;
+    font-size: 1.2rem; /* Increased font size */
 }
-Updated script.js
-javascript
-Copy code
-// Script for interactive typing effect
-const typewriterElement = document.getElementById("typewriter");
-const text = "This project focuses on designing a travel management system that is efficient and user-friendly.";
-let index = 0;
-
-function typeWriter() {
-    if (index < text.length) {
-        typewriterElement.innerHTML += text.charAt(index);
-        index++;
-        setTimeout(typeWriter, 50);
-    }
-}
-
-typeWriter();
-
-// Navigation interaction
-const navLinks = document.querySelectorAll("nav a");
-const sections = document.querySelectorAll("section");
-
-navLinks.forEach(link => {
-    link.addEventListener("click", function (event) {
-        event.preventDefault();
-
-        navLinks.forEach(nav => nav.classList.remove("active"));
-        this.classList.add("active");
-
-        sections.forEach(section => {
-            section.classList.remove("active");
-        });
-
-        const targetSection = document.querySelector(this.getAttribute("href"));
-        targetSection.classList.add("active");
-    });
-});
-Key Improvements
-Responsive Layout:
-
-The inner-content and block elements ensure the layout is responsive and visually appealing, even on smaller screens.
-Interactive Features:
-
-A typewriter effect has been added for an engaging user experience.
-Smooth navigation allows for easy toggling between sections.
-Styling Enhancements:
-
-The navigation bar is modern and interactive.
-Shadows and rounded corners give a polished look to the sections and elements.
-Integration
-Save the style.css and script.js files in the same directory as your index.html, and ensure the link and script tags point to these files correctly. Reload the webpage, and it will now have a modern, structured, and unique format.
-
-
-
-
-
-Voice chat ended
-
-
-
-
-
-
