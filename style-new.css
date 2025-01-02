@@ -1,10 +1,10 @@
-* General styles */
+/* General styles */
 body {
     font-family: 'VT323', monospace;
     background-color: #f0f8ff;
     margin: 0;
     padding: 0;
-    color: #002366; /* Changed text color to dark blue */
+    color: #001F54; /* Updated text color to very dark blue */
     font-size: 18px; /* Increased base font size */
 }
 
@@ -17,7 +17,7 @@ body {
 /* Header styles */
 header {
     background-color: #2b6777;
-    color: #002366; /* Changed text color to dark blue */
+    color: #fff; /* Retained white for contrast in header */
     text-align: center;
     padding: 20px 0;
     margin-bottom: 20px;
@@ -115,12 +115,13 @@ h2 {
 
 .block p {
     margin: 0;
+    color: #001F54; /* Ensures darker text in block paragraphs */
 }
 
 /* Footer styles */
 footer {
     background-color: #2b6777;
-    color: #002366; /* Changed text color to dark blue */
+    color: #fff; /* Retained white for footer text */
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
