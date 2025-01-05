@@ -3,220 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="(link unavailable)">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio Website</title>
-    <style>
-        h2 {
-            font-size: 28px;
-            /* Increase the size of headings */
-            margin-bottom: 10px;
-            /* Add some spacing below headings */
-        }
-
-        ul, li {
-            font-size: 18px;
-            /* Increase the size of list items */
-            line-height: 1.8;
-            /* Add spacing between lines for better readability */
-        }
-
-        p {
-            font-size: 18px;
-            /* Increase the size of paragraphs */
-        }
-
-        a {
-            text-decoration: none;
-            /* Optional: Remove underline from links */
-            color: #0066cc;
-            /* Optional: Add a nice color to links */
-        }
-
-        d4 {
-            font-size: 30px;
-            /* Adjust this value to increase the size */
-            line-height: 1.8;
-            /* Optional: Increase spacing between lines */
-        }
-
-        d4 dt {
-            font-weight: bold;
-            /* Optional: Make definition terms bold */
-        }
-
-        d4 dd {
-            margin-left: 20px;
-            /* Optional: Add spacing to the descriptions */
-        }
-    </style>
+    <title>Design and Analysis of Algorithms</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style-new.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header>
-        <a href="#" class="logo">DAA</a>
-    </header>
-    <section class="home">
-        <div class="home-content">
-            <h2>Lab Reflections</h2>
-            <h2>1. Time Complexity Analysis</h2>
-            <p style="color: white;"> 
-                1. Overcoming Challenges in Understanding Time Complexity<br>
-                - Mastering asymptotic notations and their implications.<br>
-                - Breaking down algorithms into manageable steps for analysis.<br>
-                - Relating theoretical concepts to practical applications.<br><br>
-                2. Bridging the Gap between Theory and Real-World Applications<br>
-                - Selecting the most suitable algorithm based on input size and constraints.<br>
-                - Evaluating the efficiency of algorithms in real-world scenarios.<br><br>
-                3. Identifying the Most Efficient Approach<br>
-                - Analyzing problem constraints and input size to inform algorithm choice.<br>
-                - Testing and profiling algorithms to validate theoretical efficiency.
-            </p>
-            <h2>2. Binary Search Tree</h2>
-            <p style="color: white;"> 
-                1. Challenges in Learning and Understanding BSTs<br>
-                - Visualizing the tree structure and node connections.<br>
-                - Mastering different traversal techniques.<br><br>
-                2. Applying BST Concepts to Real-World Problems<br>
-                - Recognizing the value of BSTs in efficient data storage and retrieval.<br>
-                - Ensuring the BST remains balanced for optimal performance.<br><br>
-                3. Determining the Most Efficient Approach<br>
-                - Identifying whether the problem involves ordered data or frequent searches.<br>
-                - Comparing BST with other data structures to determine the best fit.
-                <pre>
-                    <code>
-                        // BST code remains the same
-                    </code>
-                </pre>
-            </p>
-            <h2>Algorithmic Concepts</h2>
-            <h2>3. DFS and BFS</h2>
-            <p style="color: white;"> 
-                1. Overcoming Challenges in Learning and Understanding DFS and BFS<br>
-                - Grasping the difference between depth-first and level-wise traversal.<br>
-                - Visualizing the traversal process.<br>
-                - Implementing recursive and iterative solutions effectively.<br><br>
-                2. Applying DFS and BFS to Real-World Problems<br>
-                - Recognizing the value of DFS and BFS in web crawling, social network analysis, and more.<br>
-                - Evaluating the efficiency of these algorithms in real-world scenarios.<br><br>
-                3. Identifying the Most Efficient Approach<br>
-                - Determining whether the problem requires depth exploration or level exploration.<br>
-                - Comparing DFS and BFS based on complexity and specific needs.
-                <pre>
-                    <code>
-                        // DFS and BFS code remains the same
-                    </code>
-                </pre>
-            </p>
-            <ul>
-                <li><strong>Segment Tree:</strong> Efficiently handles range queries.</li>
-                <li><strong>Fenwick Tree:</strong> Optimized for cumulative frequency queries.</li>
-                <li><strong>Sparse Table:</strong>
+    <div class="container">
+        <header>
+            <h1>Design and Analysis of Algorithms</h1>
+            <h2>Travel Management Project</h2>
+        </header>
+        <br>
+        <b>
 
-    <section id="backtracking-algorithms">
-        <h2>Backtracking Algorithms: Finding All Possible Solutions</h2>
-        <img src="(link unavailable)" alt="Backtracking Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
-        <p>Backtracking algorithms are used to find all possible solutions to a problem by exploring all possible options. They work by recursively trying each option and backtracking when a dead end is reached. Backtracking algorithms are often used for solving puzzles, such as Sudoku, crosswords, and chess.</p>
-        <h3>Key Elements of Backtracking Algorithms</h3>
-        <ul>
-            <li><strong>Recursive function:</strong> Use a recursive function to explore all possible options.</li>
-            <li><strong>Backtracking:</strong> Backtrack when a dead end is reached.</li>
-            <li><strong>Exploring all options:</strong> Explore all possible options to find all possible solutions.</li>
-        </ul>
-        <h3>Examples of Backtracking Algorithms</h3>
-        <ul>
-            <li><strong>Sudoku:</strong> Solve Sudoku puzzles using a backtracking algorithm.</li>
-            <li><strong>Crosswords:</strong> Solve crosswords using a backtracking algorithm.</li>
-            <li><strong>Chess:</strong> Use a backtracking algorithm to find all possible moves in a game of chess.</li>
-        </ul>
-    </section>
-    <section id="divide-and-conquer-algorithms">
-        <h2>Divide and Conquer Algorithms: Breaking Down Complex Problems</h2>
-        <img src="(link unavailable)" alt="Divide and Conquer Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
-        <p>Divide and conquer algorithms work by breaking down complex problems into smaller sub-problems, solving each sub-problem, and then combining the solutions to solve the original problem. They are often used for sorting, searching, and merging data.</p>
-        <h3>Key Elements of Divide and Conquer Algorithms</h3>
-        <ul>
-            <li><strong>Breaking down the problem:</strong> Break down the complex problem into smaller sub-problems.</li>
-            <li><strong>Solving sub-problems:</strong> Solve each sub-problem recursively.</li>
-            <li><strong>Combining solutions:</strong> Combine the solutions to the sub-problems to solve the original problem.</li>
-        </ul>
-        <h3>Examples of Divide and Conquer Algorithms</h3>
-        <ul>
-            <li><strong>Merge sort:</strong> Sort data using the merge sort algorithm.</li>
-            <li><strong>Quick sort:</strong> Sort data using the quick sort algorithm.</li>
-            <li><strong>Binary search:</strong> Search for data using the binary search algorithm.</li>
-        </ul>
-    </section>
-    <section id="graph-algorithms">
-        <h2>Graph Algorithms: Working with Graphs</h2>
-        <img src="(link unavailable)" alt="Graph Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
-        <p>Graph algorithms are used to work with graphs, which are non-linear data structures consisting of nodes and edges. They are often used for finding the shortest path between two nodes, finding the minimum spanning tree of a graph, and testing whether a graph is connected.</p>
-        <h3>Key Elements of Graph Algorithms</h3>
-        <ul>
-            <li><strong>Graph representation:</strong> Represent the graph using an adjacency matrix or adjacency list.</li>
-            <li><strong>Graph traversal:</strong> Traverse the graph using depth-first search or breadth-first search.</li>
-            <li><strong>Shortest path:</strong> Find the shortest path between two nodes using Dijkstra's algorithm or Bellman-Ford algorithm.</li>
-        </ul>
-        <h3>Examples of Graph Algorithms</h3>
-        <ul>
-            <li><strong>Dijkstra's algorithm:</strong> Find the shortest path between two nodes using Dijkstra's algorithm.</li>
-            <li><strong>Bellman-Ford algorithm:</strong> Find the shortest path between two nodes using Bellman-Ford algorithm.</li>
-            <li><strong>Topological sort:</strong> Perform a topological sort on a directed acyclic graph.</li>
-        </ul>
-    </section>
-    <section id="dynamic-programming-algorithms">
-        <h2>Dynamic Programming Algorithms: Solving Complex Problems</h2>
-        <img src="(link unavailable)" alt="Dynamic Programming Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
-        <p>Dynamic programming algorithms are used to solve complex problems
+        <nav>
+            <ul class="main-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#project">Project Intro</a></li>
+                <li><a href="#reflections">Reflections</a></li>
+            </ul>
+        </nav>
 
-        <p>...by breaking them down into smaller sub-problems, solving each sub-problem only once, and storing the solutions to sub-problems to avoid redundant computation. They are often used for solving optimization problems, counting problems, and finding the longest or shortest path in a graph.</p>
-        <h3>Key Elements of Dynamic Programming Algorithms</h3>
-        <ul>
-            <li><strong>Breaking down the problem:</strong> Break down the complex problem into smaller sub-problems.</li>
-            <li><strong>Overlapping sub-problems:</strong> The sub-problems may have some overlap, meaning that some sub-problems may be identical or have similar solutions.</li>
-            <li><strong>Optimal substructure:</strong> The problem can be broken down into smaller sub-problems, and the optimal solution to the larger problem can be constructed from the optimal solutions of the sub-problems.</li>
-            <li><strong>Memoization:</strong> Store the solutions to sub-problems to avoid redundant computation.</li>
-        </ul>
-        <h3>Examples of Dynamic Programming Algorithms</h3>
-        <ul>
-            <li><strong>Fibonacci series:</strong> Calculate the nth Fibonacci number using dynamic programming.</li>
-            <li><strong>Longest common subsequence:</strong> Find the longest common subsequence between two strings using dynamic programming.</li>
-            <li><strong>Shortest path problems:</strong> Solve shortest path problems using dynamic programming.</li>
-        </ul>
-    </section>
-    <section id="greedy-algorithms">
-        <h2>Greedy Algorithms: Making Locally Optimal Choices</h2>
-        <img src="(link unavailable)" alt="Greedy Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
-        <p>Greedy algorithms make locally optimal choices at each step with the hope of finding a global optimum solution. They are often used for solving optimization problems, such as finding the minimum or maximum of a function, or finding the shortest path in a graph.</p>
-        <h3>Key Elements of Greedy Algorithms</h3>
-        <ul>
-            <li><strong>Greedy choice:</strong> Make a locally optimal choice at each step.</li>
-            <li><strong>Hope for global optimum:</strong> Hope that the locally optimal choices lead to a global optimum solution.</li>
-            <li><strong>No backtracking:</strong> Greedy algorithms do not backtrack or reconsider previous choices.</li>
-        </ul>
-        <h3>Examples of Greedy Algorithms</h3>
-        <ul>
-            <li><strong>Huffman coding:</strong> Construct a Huffman tree using a greedy algorithm.</li>
-            <li><strong>Activity selection problem:</strong> Select the maximum number of activities that can be performed by a single person using a greedy algorithm.</li>
-            <li><strong>Fractional knapsack problem:</strong> Solve the fractional knapsack problem using a greedy algorithm.</li>
-        </ul>
-    </section>
-    <section id="backtracking-algorithms">
-        <h2>Backtracking Algorithms: Finding All Possible Solutions</h2>
-        <img src="(link unavailable)" alt="Backtracking Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
-        <p>Backtracking algorithms are used to find all possible solutions to a problem by exploring all possible options. They are often used for solving puzzles, such as Sudoku, crosswords, and chess.</p>
-        <h3>Key Elements of Backtracking Algorithms</h3>
-        <ul>
-            <li><strong>Recursive function:</strong> Use a recursive function to explore all possible options.</li>
-            <li><strong>Backtracking:</strong> Backtrack when a dead end is reached.</li>
-            <li><strong>Exploring all options:</strong> Explore all possible options to find all possible solutions.</li>
-        </ul>
-        <h3>Examples of Backtracking Algorithms</h3>
-        <ul>
-            <li><strong>Sudoku:</strong> Solve Sudoku puzzles using a backtracking algorithm.</li>
-            <li><strong>Crosswords:</strong> Solve crosswords using a backtracking algorithm.</li>
-            <li><strong>Chess:</strong> Use a backtracking algorithm to find all possible moves in a game of chess.</li>
-        </ul>
-    </section>
-</body>
-</html>
+        <main>
+            <section id="home" class="content active">
+                <h2>Welcome to the Course!</h2>
+                <div class="inner-content">
+                    <div class="block">
+                        <h3>Course Info</h3>
+                        <p>This course explores the design and analysis of algorithms, covering fundamental data structures, algorithm efficiency, and real-world applications.</p>
+                    </div>
+                    <div class="block">
+                        <h3>Data Structures and Algorithms We Studied</h3>
+                        <ul>
+                            <li>Arrays, Linked Lists, Stacks, Queues</li>
+                            <li>Trees (Binary Search Trees, AVL Trees)</li>
+                            <li>Graphs (Representations, Traversals)</li>
+                            <li>Sorting Algorithms (Merge Sort, Quick Sort)</li>
+                            <li>Searching Algorithms (Binary Search)</li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <h3>Real-Time Applications</h3>
+                        <p>These concepts are applied to real-world problems like optimizing warehouse management, network routing, and search engine indexing.</p>
+                    </div>
+                    <div class="block">
+                        <h3>References</h3>
+                        <ul>
+                            <li>Introduction to Algorithms (CLRS)</li>
+                            <li>Algorithms (Sedgewick & Wayne)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="project" class="content">
+                <h2>Project Introduction</h2>
+                <div class="inner-content">
+                    <div class="block">
+                        <h3>Project Overview</h3>
+                        <p id="typewriter"></p>
+                    </div>
+                    <div class="block">
+                        <h3>Business Case Study Identified</h3>
+                        <p>Travel management.</p>
+                    </div>
+                    <div class="block">
+                        <h3>Problem Definition</h3>
+                        <p>Planning a trip can be stressful—whether it's organizing preferences, finding eco-friendly transport, or locating nearby attractions and emergency services. Current platforms often don't offer personalized, sustainable, or safe solutions. This project aims to create an easy-to-use platform that simplifies travel planning by providing smart, eco-friendly options and helping travelers stay safe while enjoying a seamless experience.</p>
+                    </div>
+                    <div class="block">
+                        <h3>Team Member Details</h3>
+                        <ul>
+                            <li>Member 1: [Diya:Works on carpooling solutions and shop categorization using Disjoint Set Union and Switch Cases.]</li>
+                            <li>Member 2: [Ananya:Handles tourist package sorting and transport mode selection using Selection Sort and Switch Cases.]</li>
+                            <li>Member 3: [Mishty: Responsible for listing user preferences and implementing efficient sorting mechanisms using Array and Dijkstra's algorithm.]</li>
+                            <li>Member 4: [Bhagyashri:Develops ranking-based sorting for attractions and manages transport scheduling using Bubble Sort and Insertion Sort.]</li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                        <h3>Assigned Business Cases (Members Working On)</h3>
+                        <ul>
+                            <li> Listing Preferences: Enables users to add and update their preferences for destinations or activities (MISHTY - Array and Dijkstra's algorithm).</li>
+                            <li> Tourist Packages: Allows sorting of travel packages based on price (ANANYA - Selection Sort).</li>
+                            <li> Tourist Attractions: Displays attractions sorted by rank or popularity (BHAGYASHRI - Bubble Sort).</li>
+                            <li> Transportation Modes: Helps users select suitable modes for inter-city travel (ANANYA - Switch Case).</li>
+                            <li> Carpooling Options: Matches users with potential carpool partners for shared travel (DIYA - Disjoint Set Union).</li>
+                            <li> Transport Timings: Sorts transport schedules for easier trip planning (BHAGYASHRI - Insertion Sort).</li>
+                            <li> Shop Local: Promotes local shopping with category-based sorting (DIYA - Switch Case).</li>
+                            <li> Emergency Services: Provides quick access to emergency contacts like hospitals and police (MISHTY - Switch Case).</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+           <!-- Inside the reflections section -->
+<section id="reflections" class="content">
+    <h2>Course Learning Reflections</h2>
+    <div class="inner-content">
+        <p><b>What are the types of problems we see in nature?</b><br>
+            In computational problem solving, we encounter different types of problems that mimic the patterns we observe in nature. At a broad level, these can be categorized as iterative, recursive, and backtracking problems. Iterative problems involve repeating a set of operations until a certain condition is met. For example, calculating factorial iteratively is a very direct application. The second meaningful method is recursion, in which a function resolves a problem by calling itself in smaller steps, the Tower of Hanoi or the Fibonacci sequence. Other methods include backtracking, which proves useful for constraint-based problems, such as the N-Queens Problem, in which solutions are constructed incrementally but abandoned when such paths fail to meet given constraints. In particular, algorithms reflect the natural pattern of solving a problem when it involves conditions of complexity and also constraints.
+        </p>
+
+        <p><b>What is space and time efficiency? Why are they important? Explain the different classes of problems and orders of growth.</b><br>
+            Space and time efficiency measure how well an algorithm uses computational resources. Time complexity measures the number of operations required as the input size grows, while space complexity measures memory usage. The importance of these efficiencies is that they directly impact the performance of algorithms in real-world applications. Orders of growth explain the relationship between input size and resource requirements: constant (O(1)), logarithmic (O(log n)), linear (O(n)), quadratic (O(n²)), and exponential (O(2^n)). Some sorting algorithms, for example Quick Sort, are O(n log n), an efficient balance between using resources and producing performance. Understanding these concepts allows one to choose the best algorithms for different problems.
+        </p>
+
+        <p><b>Important takeaways from Chapter 2's Design Principles</b><br>
+            <b>Chapter 2 Hashing and Hash Tables: A number of design principles are mentioned here:</b><br>
+            - <b>Hash Functions:</b> Good hash functions avoid collisions and distribute data evenly so that operations like insertion and search take constant time, O(1).<br>
+            - <b>Collision Avoidance Techniques:</b> Chaining and open addressing are techniques used to handle collisions. Chaining stores collided elements in linked lists, while open addressing searches for an alternative slot.<br>
+            - <b>Practical Applications:</b> Hash tables show that good theoretical work actually translates to very real-world efficiency. They underlie data retrieval systems such as dictionaries and caches.<br>
+            These illustrate why good design should balance efficiency and flexibility.
+        </p>
+
+        <p><b>The Hierarchical Data and Tree Structures</b><br>
+            Trees represent hierarchical data and solve numerous problems in computer science. In BST, all three operations searching, insertion and deletion can be done efficiently - that is, O(log n) - if they remain balanced. AVL Trees enhance BSTs by maintaining balance through rotations, ensuring logarithmic performance. Red-Black Trees extend balancing with color-based rules, widely used in databases and file systems. Heaps prioritize quick access to the largest or smallest elements, as seen in priority queues. Tries excel in prefix-based searches, crucial in autocomplete and spellcheck features. Each tree structure optimizes specific problem scenarios, demonstrating the adaptability of hierarchical data representations.
+        </p>
+
+        <p><b>Need for Algorithm for Array Querying</b><br>
+            Array query algorithms address issues like accessing, modification, and data analysis. For example, with prefix sums or segment trees, range queries are computed in very little time. In searching operations, arrays make use of the binary search optimization, where their complexity is of logarithmic time, O(log n), hence making arrays core in handling structured data. The applications include such diverse fields as database indexing, computational biology, thus underlining versatility and necessity in robust query mechanisms.
+        </p>
+
+        <p><b>Trees vs. Graphs</b><br>
+            Trees and graphs are both relation representations but fundamentally different. Trees are hierarchical structures with a single root and acyclic connections. Graphs generalize this concept, allowing cycles and multiple root-like nodes. Tree traversal methods, such as Inorder, Preorder, and Postorder, are linear and well-defined. Graph traversal, encompassing Depth-First Search (DFS) and Breadth-First Search (BFS), adapts to cyclic and acyclic scenarios. Trees are great for hierarchical representations like file systems, and graphs solve complex network problems like social connections or transportation systems. The diversity of their application underlines the adaptability of data structures to various applications.
+        </p>
+
+        <p><b>Sorting and Searching Algorithms and Real-World Connections</b><br>
+            Sorting and searching are foundational algorithmic techniques. Sorting methods, such as Quick Sort (divide and conquer) and Merge Sort (stable and efficient), order data efficiently for further processing. Searching algorithms, including binary search, find elements in sorted datasets with logarithmic complexity. Real-world applications abound: search engines rely on efficient algorithms to retrieve information, while sorting underpins database query optimizations. These techniques bridge theoretical design with practical utility.
+        </p>
+
+        <p><b>Graph Algorithms: Spanning Trees and Shortest Paths</b><br>
+            Graph algorithms solve key problems such as finding spanning trees and shortest paths. Minimum Spanning Tree algorithms, like Kruskal's and Prim's, optimize network connections such as power grids or communication networks. Shortest path algorithms, like Dijkstra's or A*, give the best route in navigation systems. These applications show how graph algorithms can translate hard problems into implementable solutions and how important it is in today's computation.
+        </p>
+
+        <p><b>Explored Algorithm Design Techniques</b><br>
+            The course discusses the following methodologies for algorithm design:<br>
+            - <b>Divide and Conquer:</b> Breaking down problems into smaller subproblems, as seen in Merge Sort.<br>
+            - <b>Dynamic Programming:</b> Solving overlapping subproblems, as illustrated by the Knuth-Morris-Pratt algorithm used for substring searching.<br>
+            - <b>Greedy Algorithms:</b> Choosing locally optimal solutions, as illustrated by Huffman encoding.<br>
+            - <b>Backtracking:</b> Exploring all possible solutions, eliminating paths that violate constraints, as seen in the N-Queens Problem.<br>
+            These techniques provide versatile tools for addressing diverse challenges, emphasizing adaptability and efficiency in problem-solving.
+        </p>
+
+        <p><b>Reflection on Problem-Solving Approaches</b><br>
+            1. <b>Efficiency and Trade-offs:</b> Selecting an efficient approach requires balancing constraints, considering factors like time, space, and implementation complexity. For example, I’d prefer Quick Sort for general use but use Merge Sort for stability.<br>
+            2. <b>Balancing Constraints:</b> In constrained designs, such as hashing, trade-offs between collision resolution techniques guide design decisions.<br>
+            3. <b>Simplicity vs. Optimization:</b> In cases where resources are scarce, simplicity usually wins over optimization. For example, using an iterative solution for factorial when recursion may cause stack overflow.<br>
+            4. <b>Divide and Conquer:</b> Breaking down a problem into smaller parts makes the design easier. Dynamic programming is a good example of this with its overlapping subproblems.<br>
+            5. <b>Overcoming Weaknesses:</b> Identifying bottlenecks, such as hash collisions or unbalanced trees, leads to adaptive solutions like AVL or Red-Black Trees.<br>
+            6. <b>Cross-context Knowledge:</b> Known solutions to new domains can be applied to demonstrate the strength of adaptive techniques, such as graph algorithms in bioinformatics or social network analysis.<br>
+            7. <b>Patterns in Complexity:</b> Patterns in datasets simplify the application of algorithms and aid decisions like hashing vs. search trees.<br>
+            8. <b>Innovation vs. Tradition:</b> Situations that require fast deployment might rely on proven solutions, while unique challenges can lead to innovation.<br>
+            9. <b>Efficacy of Solutions:</b> Evaluation of solutions also takes into account parameters such as speed of execution, memory usage, and adaptability. For example, the efficiency of a solution is increased if it is capable of adapting in response to unanticipated increases in data volume.<br>
+            10. <b>Adaptability of Solutions:</b> Tackling unforeseen problems often requires modification or improvement of existing algorithms. For example, changing a graph traversal algorithm to include weighted edges ensures robustness in changing scenarios.<br>
+            11. <b>Pattern Recognition:</b> Techniques such as looking at data structures for their inherent properties or recognizing patterns of recurring subproblems help in choosing efficient algorithms.<br>
+            12. <b>Design Innovation:</b> Whether one should innovate would depend on the cost of development versus potential benefits. Solutions that have been tried and tested are often good enough for traditional problems, but innovative designs are necessary in novel or very high-impact problems.<br>
+            These principles capture the nature of iterative and incremental problem-solving, thus encouraging effective and innovative solutions.
+        </p>
+    </div>
+</section> 
