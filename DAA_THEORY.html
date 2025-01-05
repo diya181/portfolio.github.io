@@ -3,154 +3,220 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design and Analysis of Algorithms</title>
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="(link unavailable)">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
     <style>
-        body {
-            font-family: 'VT323', monospace;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            color: #333;
-        }
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-        }
-        nav {
-            margin: 20px 0;
-            text-align: center;
-        }
-        .main-nav {
-            list-style-type: none;
-            padding: 0;
-        }
-        .main-nav li {
-            display: inline;
-            margin: 0 10px;
-        }
-        .main-nav a {
-            text-decoration: none;
-            color: #007BFF;
-            font-size: 20px;
-        }
-        .main-nav a.active {
-            font-weight: bold;
-            text-decoration: underline;
-        }
-        .content {
-            display: none;
-        }
-        .content.active {
-            display: block;
-        }
-        h3 {
-            margin-top: 20px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        ul li {
+        h2 {
+            font-size: 28px;
+            /* Increase the size of headings */
             margin-bottom: 10px;
+            /* Add some spacing below headings */
+        }
+
+        ul, li {
+            font-size: 18px;
+            /* Increase the size of list items */
+            line-height: 1.8;
+            /* Add spacing between lines for better readability */
+        }
+
+        p {
+            font-size: 18px;
+            /* Increase the size of paragraphs */
+        }
+
+        a {
+            text-decoration: none;
+            /* Optional: Remove underline from links */
+            color: #0066cc;
+            /* Optional: Add a nice color to links */
+        }
+
+        d4 {
+            font-size: 30px;
+            /* Adjust this value to increase the size */
+            line-height: 1.8;
+            /* Optional: Increase spacing between lines */
+        }
+
+        d4 dt {
+            font-weight: bold;
+            /* Optional: Make definition terms bold */
+        }
+
+        d4 dd {
+            margin-left: 20px;
+            /* Optional: Add spacing to the descriptions */
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <h1>Design and Analysis of Algorithms</h1>
-            <h2>Travel Management Project</h2>
-        </header>
+    <header>
+        <a href="#" class="logo">DAA</a>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h2>Lab Reflections</h2>
+            <h2>1. Time Complexity Analysis</h2>
+            <p style="color: white;"> 
+                1. Overcoming Challenges in Understanding Time Complexity<br>
+                - Mastering asymptotic notations and their implications.<br>
+                - Breaking down algorithms into manageable steps for analysis.<br>
+                - Relating theoretical concepts to practical applications.<br><br>
+                2. Bridging the Gap between Theory and Real-World Applications<br>
+                - Selecting the most suitable algorithm based on input size and constraints.<br>
+                - Evaluating the efficiency of algorithms in real-world scenarios.<br><br>
+                3. Identifying the Most Efficient Approach<br>
+                - Analyzing problem constraints and input size to inform algorithm choice.<br>
+                - Testing and profiling algorithms to validate theoretical efficiency.
+            </p>
+            <h2>2. Binary Search Tree</h2>
+            <p style="color: white;"> 
+                1. Challenges in Learning and Understanding BSTs<br>
+                - Visualizing the tree structure and node connections.<br>
+                - Mastering different traversal techniques.<br><br>
+                2. Applying BST Concepts to Real-World Problems<br>
+                - Recognizing the value of BSTs in efficient data storage and retrieval.<br>
+                - Ensuring the BST remains balanced for optimal performance.<br><br>
+                3. Determining the Most Efficient Approach<br>
+                - Identifying whether the problem involves ordered data or frequent searches.<br>
+                - Comparing BST with other data structures to determine the best fit.
+                <pre>
+                    <code>
+                        // BST code remains the same
+                    </code>
+                </pre>
+            </p>
+            <h2>Algorithmic Concepts</h2>
+            <h2>3. DFS and BFS</h2>
+            <p style="color: white;"> 
+                1. Overcoming Challenges in Learning and Understanding DFS and BFS<br>
+                - Grasping the difference between depth-first and level-wise traversal.<br>
+                - Visualizing the traversal process.<br>
+                - Implementing recursive and iterative solutions effectively.<br><br>
+                2. Applying DFS and BFS to Real-World Problems<br>
+                - Recognizing the value of DFS and BFS in web crawling, social network analysis, and more.<br>
+                - Evaluating the efficiency of these algorithms in real-world scenarios.<br><br>
+                3. Identifying the Most Efficient Approach<br>
+                - Determining whether the problem requires depth exploration or level exploration.<br>
+                - Comparing DFS and BFS based on complexity and specific needs.
+                <pre>
+                    <code>
+                        // DFS and BFS code remains the same
+                    </code>
+                </pre>
+            </p>
+            <ul>
+                <li><strong>Segment Tree:</strong> Efficiently handles range queries.</li>
+                <li><strong>Fenwick Tree:</strong> Optimized for cumulative frequency queries.</li>
+                <li><strong>Sparse Table:</strong>
 
-        <nav>
-            <ul class="main-nav">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#project">Project Intro</a></li>
-                <li><a href="#reflections">Reflections</a></li>
-            </ul>
-        </nav>
+    <section id="backtracking-algorithms">
+        <h2>Backtracking Algorithms: Finding All Possible Solutions</h2>
+        <img src="(link unavailable)" alt="Backtracking Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
+        <p>Backtracking algorithms are used to find all possible solutions to a problem by exploring all possible options. They work by recursively trying each option and backtracking when a dead end is reached. Backtracking algorithms are often used for solving puzzles, such as Sudoku, crosswords, and chess.</p>
+        <h3>Key Elements of Backtracking Algorithms</h3>
+        <ul>
+            <li><strong>Recursive function:</strong> Use a recursive function to explore all possible options.</li>
+            <li><strong>Backtracking:</strong> Backtrack when a dead end is reached.</li>
+            <li><strong>Exploring all options:</strong> Explore all possible options to find all possible solutions.</li>
+        </ul>
+        <h3>Examples of Backtracking Algorithms</h3>
+        <ul>
+            <li><strong>Sudoku:</strong> Solve Sudoku puzzles using a backtracking algorithm.</li>
+            <li><strong>Crosswords:</strong> Solve crosswords using a backtracking algorithm.</li>
+            <li><strong>Chess:</strong> Use a backtracking algorithm to find all possible moves in a game of chess.</li>
+        </ul>
+    </section>
+    <section id="divide-and-conquer-algorithms">
+        <h2>Divide and Conquer Algorithms: Breaking Down Complex Problems</h2>
+        <img src="(link unavailable)" alt="Divide and Conquer Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
+        <p>Divide and conquer algorithms work by breaking down complex problems into smaller sub-problems, solving each sub-problem, and then combining the solutions to solve the original problem. They are often used for sorting, searching, and merging data.</p>
+        <h3>Key Elements of Divide and Conquer Algorithms</h3>
+        <ul>
+            <li><strong>Breaking down the problem:</strong> Break down the complex problem into smaller sub-problems.</li>
+            <li><strong>Solving sub-problems:</strong> Solve each sub-problem recursively.</li>
+            <li><strong>Combining solutions:</strong> Combine the solutions to the sub-problems to solve the original problem.</li>
+        </ul>
+        <h3>Examples of Divide and Conquer Algorithms</h3>
+        <ul>
+            <li><strong>Merge sort:</strong> Sort data using the merge sort algorithm.</li>
+            <li><strong>Quick sort:</strong> Sort data using the quick sort algorithm.</li>
+            <li><strong>Binary search:</strong> Search for data using the binary search algorithm.</li>
+        </ul>
+    </section>
+    <section id="graph-algorithms">
+        <h2>Graph Algorithms: Working with Graphs</h2>
+        <img src="(link unavailable)" alt="Graph Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
+        <p>Graph algorithms are used to work with graphs, which are non-linear data structures consisting of nodes and edges. They are often used for finding the shortest path between two nodes, finding the minimum spanning tree of a graph, and testing whether a graph is connected.</p>
+        <h3>Key Elements of Graph Algorithms</h3>
+        <ul>
+            <li><strong>Graph representation:</strong> Represent the graph using an adjacency matrix or adjacency list.</li>
+            <li><strong>Graph traversal:</strong> Traverse the graph using depth-first search or breadth-first search.</li>
+            <li><strong>Shortest path:</strong> Find the shortest path between two nodes using Dijkstra's algorithm or Bellman-Ford algorithm.</li>
+        </ul>
+        <h3>Examples of Graph Algorithms</h3>
+        <ul>
+            <li><strong>Dijkstra's algorithm:</strong> Find the shortest path between two nodes using Dijkstra's algorithm.</li>
+            <li><strong>Bellman-Ford algorithm:</strong> Find the shortest path between two nodes using Bellman-Ford algorithm.</li>
+            <li><strong>Topological sort:</strong> Perform a topological sort on a directed acyclic graph.</li>
+        </ul>
+    </section>
+    <section id="dynamic-programming-algorithms">
+        <h2>Dynamic Programming Algorithms: Solving Complex Problems</h2>
+        <img src="(link unavailable)" alt="Dynamic Programming Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
+        <p>Dynamic programming algorithms are used to solve complex problems
 
-        <main>
-            <section id="home" class="content active">
-                <h2>Welcome to the Course!</h2>
-                <div class="inner-content">
-                    <div class="block">
-                        <h3>Course Info</h3>
-                        <p>This course explores the design and analysis of algorithms, covering fundamental data structures, algorithm efficiency, and real-world applications.</p>
-                    </div>
-                    <div class="block">
-                        <h3>Data Structures and Algorithms We Studied</h3>
-                        <ul>
-                            <li>Arrays, Linked Lists, Stacks, Queues</li>
-                            <li>Trees (Binary Search Trees, AVL Trees)</li>
-                            <li>Graphs (Representations, Traversals)</li>
-                            <li>Sorting Algorithms (Merge Sort, Quick Sort)</li>
-                            <li>Searching Algorithms (Binary Search)</li>
-                        </ul>
-                    </div>
-                    <div class="block">
-                        <h3>Real-Time Applications</h3>
-                        <p>These concepts are applied to real-world problems like optimizing warehouse management, network routing, and search engine indexing.</p>
-                    </div>
-                    <div class="block">
-                        <h3>References</h3>
-                        <ul>
-                            <li>Introduction to Algorithms (CLRS)</li>
-                            <li>Algorithms (Sedgewick & Wayne)</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section id="project" class="content">
-                <h2>Project Introduction</h2>
-                <div class="inner-content">
-                    <div class="block">
-                        <h3>Project Overview</h3>
-                        <p id="typewriter"></p>
-                    </div>
-                    <div class="block">
-                        <h3>Business Case Study Identified</h3>
-                        <p>Travel management.</p>
-                    </div>
-                    <div class="block">
-                        <h3>Problem Definition</h3>
-                        <p>Planning a trip can be stressful—whether it's organizing preferences, finding eco-friendly transport, or locating nearby attractions and emergency services. Current platforms often don't offer personalized, sustainable, or safe solutions. This project aims to create an easy-to-use platform that simplifies travel planning by providing smart, eco-friendly options and helping travelers stay safe while enjoying a seamless experience.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="reflections" class="content">
-                <h2>Course Learning Reflections</h2>
-                <p>Understanding algorithms and data structures provides critical skills for solving complex computational problems.</p>
-            </section>
-        </main>
-    </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const navLinks = document.querySelectorAll('.main-nav a');
-            const sections = document.querySelectorAll('.content');
-
-            navLinks.forEach(link => {
-                link.addEventListener('click', (event) => {
-                    event.preventDefault();
-                    const targetId = link.getAttribute('href').substring(1);
-
-                    // Hide all sections and remove active class from links
-                    sections.forEach(section => section.classList.remove('active'));
-                    navLinks.forEach(link => link.classList.remove('active'));
-
-                    // Show the target section and highlight the clicked nav link
-                    document.getElementById(targetId).classList.add('active');
-                    link.classList.add('active');
-                });
-            });
-        });
-    </script>
+        <p>...by breaking them down into smaller sub-problems, solving each sub-problem only once, and storing the solutions to sub-problems to avoid redundant computation. They are often used for solving optimization problems, counting problems, and finding the longest or shortest path in a graph.</p>
+        <h3>Key Elements of Dynamic Programming Algorithms</h3>
+        <ul>
+            <li><strong>Breaking down the problem:</strong> Break down the complex problem into smaller sub-problems.</li>
+            <li><strong>Overlapping sub-problems:</strong> The sub-problems may have some overlap, meaning that some sub-problems may be identical or have similar solutions.</li>
+            <li><strong>Optimal substructure:</strong> The problem can be broken down into smaller sub-problems, and the optimal solution to the larger problem can be constructed from the optimal solutions of the sub-problems.</li>
+            <li><strong>Memoization:</strong> Store the solutions to sub-problems to avoid redundant computation.</li>
+        </ul>
+        <h3>Examples of Dynamic Programming Algorithms</h3>
+        <ul>
+            <li><strong>Fibonacci series:</strong> Calculate the nth Fibonacci number using dynamic programming.</li>
+            <li><strong>Longest common subsequence:</strong> Find the longest common subsequence between two strings using dynamic programming.</li>
+            <li><strong>Shortest path problems:</strong> Solve shortest path problems using dynamic programming.</li>
+        </ul>
+    </section>
+    <section id="greedy-algorithms">
+        <h2>Greedy Algorithms: Making Locally Optimal Choices</h2>
+        <img src="(link unavailable)" alt="Greedy Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
+        <p>Greedy algorithms make locally optimal choices at each step with the hope of finding a global optimum solution. They are often used for solving optimization problems, such as finding the minimum or maximum of a function, or finding the shortest path in a graph.</p>
+        <h3>Key Elements of Greedy Algorithms</h3>
+        <ul>
+            <li><strong>Greedy choice:</strong> Make a locally optimal choice at each step.</li>
+            <li><strong>Hope for global optimum:</strong> Hope that the locally optimal choices lead to a global optimum solution.</li>
+            <li><strong>No backtracking:</strong> Greedy algorithms do not backtrack or reconsider previous choices.</li>
+        </ul>
+        <h3>Examples of Greedy Algorithms</h3>
+        <ul>
+            <li><strong>Huffman coding:</strong> Construct a Huffman tree using a greedy algorithm.</li>
+            <li><strong>Activity selection problem:</strong> Select the maximum number of activities that can be performed by a single person using a greedy algorithm.</li>
+            <li><strong>Fractional knapsack problem:</strong> Solve the fractional knapsack problem using a greedy algorithm.</li>
+        </ul>
+    </section>
+    <section id="backtracking-algorithms">
+        <h2>Backtracking Algorithms: Finding All Possible Solutions</h2>
+        <img src="(link unavailable)" alt="Backtracking Algorithms" style="width: 100%; height: 500px; object-fit: cover;">
+        <p>Backtracking algorithms are used to find all possible solutions to a problem by exploring all possible options. They are often used for solving puzzles, such as Sudoku, crosswords, and chess.</p>
+        <h3>Key Elements of Backtracking Algorithms</h3>
+        <ul>
+            <li><strong>Recursive function:</strong> Use a recursive function to explore all possible options.</li>
+            <li><strong>Backtracking:</strong> Backtrack when a dead end is reached.</li>
+            <li><strong>Exploring all options:</strong> Explore all possible options to find all possible solutions.</li>
+        </ul>
+        <h3>Examples of Backtracking Algorithms</h3>
+        <ul>
+            <li><strong>Sudoku:</strong> Solve Sudoku puzzles using a backtracking algorithm.</li>
+            <li><strong>Crosswords:</strong> Solve crosswords using a backtracking algorithm.</li>
+            <li><strong>Chess:</strong> Use a backtracking algorithm to find all possible moves in a game of chess.</li>
+        </ul>
+    </section>
 </body>
 </html>
